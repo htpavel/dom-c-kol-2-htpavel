@@ -14,7 +14,7 @@ function jeBinarniCislo(BinarniCislo) {
 
     //projde všechny znaky a ověří, jestli je zanak 0 nebo 1
     for (let index = 0; index <= BinarniCislo.length - 1; index++) {
-        if (BinarniCislo[index] == "0" || BinarniCislo[index] == "1") { }
+        if (BinarniCislo[index] === "0" || BinarniCislo[index] === "1") { }
         else {
             return false; // 
         }
@@ -38,7 +38,7 @@ function dvojkovaDoDesitkove(BinarniCislo) {
         for (let index = BinarniCislo.length - 1; index >= 0; index--) {
 
             // Decimální číslo = Decimální číslo + (1 * 2pozice indexu) 
-            if (BinarniCislo[index] == "1") {
+            if (BinarniCislo[index] === "1") {
                 decimalniCislo = decimalniCislo + (mocnina * BinarniCislo[index]);
             }
             mocnina = mocnina * 2;
@@ -57,7 +57,7 @@ function dvojkovaDoDesitkove(BinarniCislo) {
 
 // Příklad použití 
 /*
-let vstupniCislo = "11001"; // zadejte binární číslo, které chcete převést
+let vstupniCislo = "11011"; // zadejte binární číslo, které chcete převést
 let deci = dvojkovaDoDesitkove(vstupniCislo);
 let jeToBinarniCislo = jeBinarniCislo(vstupniCislo);
 console.log("Binární číslo " + vstupniCislo + " je v desítkové soustavě " + deci + ".");
