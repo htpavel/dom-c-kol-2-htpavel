@@ -24,7 +24,7 @@ function jeBinarniCislo(BinarniCislo) {
 
 
 /** 
- * Převede binární číslo na destíkové
+ * Funkce převede binární číslo na destíkové
  * @param {number} BinarniCislo vstupní binární číslo
  * @returns {number} převedené číslo na desítkový formát
  */
