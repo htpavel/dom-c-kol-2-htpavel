@@ -1,11 +1,11 @@
 /*
 # Program převede číslo z dvojkové soustavy
-# do soustavy desítkové 
+  do soustavy desítkové 
 */
 
 /** 
- * logická funkce zjistí, jestli je zadaný formát binární
- * @param {number} BinarniCislo vstupní binární číslo
+ * Logická funkce zjistí, jestli je zadaný formát binární
+ * @param {number} BinarniCislo - vstupní binární číslo
  * @returns {boolean} je číslo binární?
  */
 function jeBinarniCislo(BinarniCislo) {
@@ -25,7 +25,7 @@ function jeBinarniCislo(BinarniCislo) {
 
 /** 
  * Funkce převede binární číslo na destíkové
- * @param {number} BinarniCislo vstupní binární číslo
+ * @param {number} BinarniCislo - vstupní binární číslo
  * @returns {number} převedené číslo na desítkový formát
  */
 function dvojkovaDoDesitkove(BinarniCislo) {
