@@ -1,7 +1,9 @@
-/*
-# Program převede číslo z dvojkové soustavy
-  do soustavy desítkové 
+/** 
+* Program převede číslo z dvojkové soustavy do soustavy desítkové 
+* @fileoverview domácí úkol 2
+* @author Pavel Černý
 */
+
 
 /** 
  * Logická funkce zjistí, jestli je zadaný formát binární
